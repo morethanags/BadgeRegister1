@@ -1,0 +1,33 @@
+#Internal package file, do not edit.
+#Wed Oct 11 10:31:35 COT 2017
+2.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+5.set=ANDROID_RESOURCE
+3.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+2.set=ANDROID_RESOURCE
+4.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+7.set=ANDROID_RESOURCE
+count=10
+0.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+5.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxhdpi-v4\\ic_launcher.png
+4.set=ANDROID_RESOURCE
+6.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-hdpi-v4\\ic_launcher.png
+9.set=ANDROID_RESOURCE
+9.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xhdpi-v4\\ic_launcher.png
+1.set=ANDROID_RESOURCE
+7.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxxhdpi-v4\\ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+8.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+3.set=ANDROID_RESOURCE
+1.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+9.base=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-mdpi-v4\\ic_launcher.png
+8.set=ANDROID_RESOURCE
+0.set=DEX
