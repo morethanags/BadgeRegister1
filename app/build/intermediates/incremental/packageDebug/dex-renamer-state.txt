@@ -1,4 +1,7 @@
-#Wed Oct 11 10:31:34 COT 2017
-base.0=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Tue Aug 07 16:12:08 COT 2018
+base.0=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_692a8e39e67bb4ff288d3e186374e66f8675882e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_71660e42b87347e0b7178655d13fed71eb1abc4b\\classes.dex
+base.1=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_71660e42b87347e0b7178655d13fed71eb1abc4b
+file.0=E\:\\MobileApps\\Android-Studio\\projects\\BadgeRegister\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_692a8e39e67bb4ff288d3e186374e66f8675882e\\classes.dex

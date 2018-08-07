@@ -2,20 +2,12 @@ package com.colp.badgeregister;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.UUID;
 
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.BasicResponseHandler;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -24,7 +16,6 @@ import android.net.NetworkInfo;
 import android.nfc.NdefMessage;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
-import android.nfc.tech.MifareClassic;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -35,6 +26,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.IntentFilter.MalformedMimeTypeException;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.Menu;
@@ -42,7 +35,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 	public static final String MIME_TEXT_PLAIN = "text/plain";
 	private EditText mCardId;
 	private EditText mCredentialId;
@@ -57,9 +50,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-			getActionBar().setDisplayHomeAsUpEnabled(true);
-		}
+		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+		setSupportActionBar(toolbar);
 		mCardId = (EditText) findViewById(R.id.editText_CardId);
 		mCredentialId = (EditText) findViewById(R.id.editText_CredentialId);
 		mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
@@ -97,12 +89,11 @@ public class MainActivity extends Activity {
 			try {
 				String cardId = mCardId.getText().toString();
 				String credentialId = mCredentialId.getText().toString();
-				String serverURL = "http://plngmelas35.plng.pvt/ccure/RegisterBadge/"
+				String serverURL = getResources().getString(
+						R.string.server_url)+"/Access/PostBadge/"
 						+ cardId
 						+ "/"
-						+ credentialId
-						+ "/"
-						+ UUID.randomUUID().toString();
+						+ credentialId;
 				new QueryOperation().execute(serverURL);
 			} catch (Exception e) {
 				Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show();
@@ -236,7 +227,7 @@ public class MainActivity extends Activity {
 				JSONObject jsonResponse = new JSONObject(result);
 				result = jsonResponse.optString("records")
 						+ " Badge registered";
-				Toast.makeText(MainActivity.this, result, Toast.LENGTH_LONG)
+				Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT)
 						.show();
 				
 			} catch (JSONException e) {
