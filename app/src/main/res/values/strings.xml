@@ -6,6 +6,8 @@
     <string name="button_text">Register</string>
     <string name="card_hint">Tap a Badge</string>
     <string name="credential_hint">Card Number</string>
-    <string name="server_url">http://plngmelas08.plng.pvt/ccure9000/rest</string>
+
+    <string name="server_url">http://wsprd.perulng.com/ccure9000/rest</string>
+ <!--  <string name="server_url">http://plngmelas08.plng.pvt/ccure9000/rest</string>-->
 
 </resources>
